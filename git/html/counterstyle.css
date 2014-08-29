@@ -1,0 +1,112 @@
+.wrapping div { display: block; } 
+
+#wrapping { 
+	
+	z-index: 999;
+}
+
+#clock-ticker { 
+	display: block; 
+	margin-bottom: 3px;
+}
+
+#clock-ticker .block{ 
+	position: relative; 
+	color: #fff; 
+	font-weight: bold; 
+	float: left; 
+	margin-right: 0px;
+}
+
+/* start of start block */
+#clock-ticker .startBlock{ 
+	position: relative; 
+	color: #fff; 
+	font-weight: bold; 
+	float: left; 
+	margin-right: 3%;
+}
+
+#clock-ticker .startBlock .flip-top { 
+	width: 88px; 
+	height: 39px; 
+	line-height: 75px; 
+	font-size: 56px; 
+	background: url('img/flip-top.png') no-repeat; 
+	text-align: center; 
+}
+
+#clock-ticker .startBlock .flip-btm { 
+	width: 88px; 
+	height: 40px; 
+	background: url('img/flip-btm.png') no-repeat; 
+	text-align: center; 
+}
+
+#clock-ticker .startBlock .label { 
+	color: #333; 
+	font-weight: bold; 
+	font-size: 14px; 
+	text-transform: uppercase; 
+	text-align: center; 
+	font-family: "Calibri", Arial, sans-serif; 
+	position: relative;
+}
+
+/* end of start block */
+
+#clock-ticker .block .label { 
+	color: #333; 
+	font-weight: bold; 
+	font-size: 14px; 
+	text-transform: uppercase; 
+	text-align: center; 
+	font-family: "Calibri", Arial, sans-serif;  
+}
+
+#clock-ticker .block .flip-top { 
+	width: 88px; 
+	height: 39px; 
+	line-height: 75px; 
+	font-size: 55px;
+	background: url('img/flip-top.png') no-repeat; 
+	text-align: center; 
+}
+
+#clock-ticker .block .flip-btm { 
+	width: 88px; 
+	height: 40px; 
+	background: url('img/flip-btm.png') no-repeat; 
+	text-align: center; 
+}
+
+.boxes a:visited {
+	color: #000;
+}
+
+.boxes a {
+	text-decoration: none;
+}
+
+.boxes a:hover {
+	text-decoration: underline;
+}
+
+.boxTextColor {
+	color: #616161;
+	
+}
+
+#tallyTextDescription {
+	color: #616161;
+	font-size: 12px;
+	font-weight: normal;
+	width: 140px;
+}
+
+
+	
+
+
+
+ 
