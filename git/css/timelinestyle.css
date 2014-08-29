@@ -1,0 +1,178 @@
+.year a {
+	color: #ffffcc;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+	text-decoration: none;
+}
+	.year a.hover,
+	.yera a.selected {
+		color: #ffcc00;
+	}
+
+h1,h2,h4,h5,h6 {
+	text-align: center;
+	color: blue;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-family: arial;
+}
+	h1 {
+		font-family: arial;
+		font-size: 13px;
+	}
+	h2 {
+		color: #00008b;
+		font-family: calibri;
+		text-align: left;
+		font-size: 18px;
+		font-weight: bold;
+		
+	}
+.sociales {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#timeline {
+	width: 940px;
+	height: 420px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	background: url('../images/timeline/dot.gif') left 45px repeat-x;
+	z-index: 100;
+}
+
+#dates {
+	width: 800px;
+	height: 60px;
+	overflow: hidden;
+}
+
+#dates li {
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 50px;
+	font-size: 15px;
+	text-align: center;
+	background: url('../images/timeline/biggerdot.png') center bottom no-repeat;
+	z-index: 99;
+}
+				
+#dates a {
+	font-family: arial;
+	line-height: 38px;
+	padding-bottom: 10px;
+	text-shadow: #000 1px;
+	color: #d6d6d6;
+	font-weight: bold;
+	z-index: 99;
+}
+				
+#dates .selected {
+    font-size: 18px;
+	color: #00008b;
+	z-index: 99;
+}
+
+#issues {
+	width: 800px;
+	height: 350px;
+	overflow: hidden;
+	z-index: 99;
+}	
+
+#issues li {
+	width: 940px;
+	height: 300px;
+	list-style: none;
+	float: left;
+	z-index: 15;
+}
+
+#issues li img{
+	float: left;
+	margin: 10px 60px 10px 30px;
+	z-index: 15;
+	box-shadow: 2px 2px 2px 2px #bababa;
+	border-radius: 15px;
+}
+
+				#issues li h1 {
+					color: blue;
+					font-size: 48px;
+					margin: 20px 0;
+					z-index: 15;
+				}
+				
+						
+				#issues li p {
+					font-family: arial;
+					font-size: 12px;
+					margin-right: 70px;
+					font-weight: normal;
+					/*line-height: 22px;*/
+					z-index: 15;
+				}
+				
+				#issues p {
+					font-size: 18px;
+				}
+							
+		#grad_left,
+		#grad_right {
+			width: 100px;
+			height: 350px;
+			position: absolute;
+			top: 0;
+			z-index: 15;
+		}
+			#grad_left {
+		        left: 0;
+		        /*background: url('../images/timeline/grad_left.png') repeat-y;*/
+				z-index: 15;
+			}
+			#grad_right {
+		        right: 0;
+		        /*background: url('../images/timeline/grad_right.png') repeat-y;*/
+				z-index: 15;
+			}
+		
+		#next,
+		#prev {
+			position: absolute;
+			top: 0;
+			font-size: 70px;
+			top: 170px;
+			width: 22px;
+			height: 38px;
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			text-indent: -9999px;
+			overflow: hidden;
+			z-index: 15;
+		}
+			#next:hover,
+			#prev:hover {
+				background-position: 0 -76px;
+			}
+			#next {
+				right: 0;
+				background-image: url('../images/timeline/next.png');
+			}
+			#prev {
+				left: 0;
+				background-image: url('../images/timeline/prev.png');
+			}
+				#next.disabled,
+				#prev.disabled {
+					opacity: 0.2;
+				}
+
+
+/*---------------- positioning ---------------------- */

@@ -1,0 +1,61 @@
+.form_grid1 p,
+.form_grid2 p,
+.form_grid3 p 
+ {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.usRep {
+	margin-bottom: 130px;
+
+}
+
+.repTable {
+	padding-left: 38px;
+
+}
+
+.form_grid1 {
+	width: 30%;
+	float: left;
+	margin-left: 3%;
+	margin-right: 1%;
+	font-family: arial;
+	font-size: 13px;
+}
+
+
+.form_grid2 {
+	width: 30%;
+	float: left;
+	font-family: arial;
+	font-size: 13px;
+}
+
+
+.form_grid3 {
+	width: 30%;
+	float: left;
+	margin-left: 2%;
+	font-family: arial;
+	font-size: 13px;
+}
+
+.form_grid1 span,
+.form_grid2 span {
+	font-family: arial;
+	font-size: 13px;
+}
+
+.repFinderScreen {
+	width: 215px;
+	
+}
+
+select {
+	padding:3px;
+    background: #fff;
+    color: black;
+}
+

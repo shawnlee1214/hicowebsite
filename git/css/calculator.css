@@ -1,0 +1,75 @@
+#toolsBanner {
+	background-color: #00008b;
+	color: #fff;
+	font-family: arial, calibri;
+	font-size: 16px;
+	font-weight: bold;
+	width: 200px;
+    padding: 5px;
+	text-align: center;
+	z-index: 3;
+	box-shadow: 1px 1px #bababa;
+}
+
+.selectionTool {
+	float: right;
+	margin-right: 10%;
+	margin-top: -3%;
+}
+
+.calTitle {
+	margin-left: 5%;
+}
+
+.onanTable tr {
+	padding: 2px;
+	z-index: 99;
+}
+
+.onanTable {
+	background-color: #e8e8e8;
+	font-family: arial;
+	font-size: 10px;
+	padding: 2px;
+	width: 880px;
+	z-index: 99;
+	margin-left: 5%;
+}
+
+.onanTable td {
+	font-family: arial;
+	font-size: 12px;
+	z-index: 99;
+	padding: 3px;
+
+}
+
+#button td{
+	border: none;
+}
+
+.top_font {
+	font-family: arial;
+	font-size: 12px;
+	width: 900px;
+	z-index: 99;
+}
+
+.top_font span {
+	font-size: 16px;
+	color: #999999;
+}
+
+.instructions   {
+	width: 400px;
+}
+
+.fristColumn {
+	width: 230px;
+}
+
+
+
+	
+	
+

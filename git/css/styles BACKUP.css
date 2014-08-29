@@ -1,0 +1,346 @@
+#BodyAreaIndex {
+	position:relative; 
+	width:980px; 
+	margin:0 auto; 
+}
+
+#bodyArea {
+	position:relative; 
+	width:980px; 
+	margin:0 auto; 
+	z-index: 99;
+}
+
+.grid_0 {
+	width: 100%; 
+	float: left; 
+	z-index: -99;
+	margin-top: 1%;
+}
+
+.grid_1,
+.grid_1_back { 
+	background-color: #ffffff;
+	width: 32.8%; 
+	height: 208px; 
+	float: left; 
+	/*box-shadow: 0 2px 2px 0 #bababa; */
+	margin-top: 3%;
+	border:  1px solid #bababa;
+	
+}
+
+.grid_1_center { 
+	background-color: #ffffff;
+	width: 32.8%; 
+	height: 208px; 
+	float: left; 
+	margin-right: 0.7%; 
+	margin-left: 0.7%;
+	/*box-shadow: 0 2px 2px 0 #bababa;*/
+	margin-top: 3%;
+	border:  1px solid #bababa;
+}
+
+.grid_1 img,
+.grid_1_center img {
+	width: 95%;
+	height: 100px;
+	margin: 2.5%;
+}
+
+.grid1_title,
+.grid1_description {
+	font-family: arial;
+	font-size: 12px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	color: #837E7C;
+}
+
+.grid1_description {
+	margin-top: 1.2%;
+}
+
+.grid_2,
+.grid_3 { 
+	background-color: #ffffff;
+	width: 49.575%; 
+	height: 230px; 
+	float: left; 
+	/*box-shadow: 0 2px 2px 0 #bababa; */
+	margin-top: 1%;
+	padding-bottom: 1%;
+	font-family: arial;
+	font-size: 12px;
+}
+
+.grid_3 { 
+	margin-left: 0.85%;
+	
+}
+
+.grid_2  ul,
+.grid_3  ul { 
+	font-family: arial;
+	font-size: 12px;
+	list-style-type: none;
+}
+
+.grid_2 ul {
+	margin-left: -4%;
+	
+}
+
+.grid_3_part1 {
+	float: left;
+	width: 90%;
+	margin-left: 3%;
+	margin-bottom: 2%;
+}
+
+
+#sub_titleMain{
+	background-color: #00008b;
+	color: #fff;
+	font-family: arial, calibri;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 3px;
+	width: 200px;
+	z-index: 3;
+	box-shadow: 1px 1px #bababa;
+}
+
+#footer {
+	float: left;
+	font-family:  arial;
+	font-size: 11px;
+	margin-top: 1%;
+	padding-bottom: 1%;
+} 
+
+#footer a {
+	color: #000;
+	text-decoration: none;
+}
+
+#footer a:visited {
+	color: #000;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+.grid1_title a {
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.grid1_title a {
+	color: #000;
+}
+
+.grid1_title a:visited {
+	color: #000;
+}
+
+.grid1_title a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* ===============================SUBPAGES ==================================== */
+.downloads {
+	font-family: arial, calibri, arial bold, calibri, arial, Helvetica, Verdana, sans-serif;
+	font-size: 10px;
+	z-index: 1;
+
+}
+
+.downloads li {
+	list-style-type: square;
+	margin-top: 10px;
+}
+
+.downloads a{
+	list-style-type: none;
+	font-size: 11px;
+	color: #0000ee;
+	padding: 4px;
+}	
+
+.downloads  a:visited {
+	color: #0000ee;
+}
+
+.downloads  a:hover {
+	text-decoration: underline;
+}
+
+.downloads a {
+	text-decoration: none;
+}
+
+/* -----------CONTACT FORM SETTING -------------------------------------------------------- */
+
+/* The CSS */
+select {
+	padding:10px;
+    border-radius:4px;
+    background: #f8f8f8;
+    color: black;
+    border: none;
+}
+
+/*------------------- GIS TABLE --------------------------------------- */
+
+.gistable {
+	font-family: arial, calibri, arial bold, Helvetica, Verdana, sans-serif;
+	position: absolute;
+	left: 320px;
+	top: 460px;
+}
+
+.gistable .tableType01 tr {
+	font-family: arial, calibri, arial bold, Helvetica, Verdana, sans-serif;
+	font-size: 12px;
+}
+
+.gistable .tableType01 th td {
+	font-family: arial, calibri, arial bold, Helvetica, Verdana, sans-serif;
+	font-size: 12px;
+	
+	
+}
+
+
+#tablehead p{
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	color: #2c323e;
+}
+
+
+.gcbtable .tableType01 td{
+    font-family: arial, calibri, arial bold, Helvetica, Verdana, sans-serif;
+	font-size: 12px;
+}
+
+
+.gcbtable .tableType01 tr th {
+    font-family: arial, calibri, arial bold, Helvetica, Verdana, sans-serif;
+	font-size: 12px;
+}
+
+/*
+.mvgistable {
+	font-family: arial, calibri, arial bold, Helvetica, Verdana, sans-serif;
+	position: absolute;
+	left: 320px;
+	top: 455px;
+} */
+
+.mvgistable .tableType01 tr th {
+	font-family: arial, calibri, arial bold, Helvetica, Verdana, sans-serif;
+	font-size: 12px;
+}
+
+.mvgistable .tableType01 td{
+	font-family: arial, calibri, arial bold, Helvetica, Verdana, sans-serif;
+	font-size: 12px;
+}
+
+#hyosung_link:visited {
+	color: blue;
+}
+
+#hyosung_link {
+	color: blue;
+	text-decoration: none;
+}
+
+/*transformer navigation menu */
+
+#nav {
+  list-style: none;
+  position: fixed;
+  top: 200px;
+  left: 190px;
+  
+}
+#nav li {
+  margin-bottom: 2px;
+}
+#nav a {
+  background: #ededed;
+  color: #666;
+  display: block;
+  font-size: 11px;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#nav a:hover {
+  background: #dedede;
+}
+#nav .current a {
+  background: #666;
+  color: #ededed;
+}
+
+
+#container {
+  margin: 0;
+  margin-bottom: 2%;
+}
+
+.section {
+  border-bottom: 2px solid #ccc;
+  padding: 4px 4px 4px 4px;
+}
+
+.section p:last-child {
+  margin-bottom: 0;
+}
+
+.section_font {
+	background-color: #00008b;
+	color: #fff;
+	padding: 5px;
+}
+
+.servicePictures  img{
+	margin-right: 16px;
+	box-shadow: 1px 1px 1px 1px #c2c2c2;
+}
+
+#demo {
+	
+	color: black;
+	font-family: arial, calibri;
+	font-size: 14px;
+	width: 250px;
+	text-align: left;
+	margin: 2px;
+}
+
+#demoCanada {
+	
+	color: black;
+	font-family: arial, calibri;
+	font-size: 14px;
+	width: 250px;
+	text-align: left;
+}
+
+.calTitle {
+	font-size: 14px;
+
+}

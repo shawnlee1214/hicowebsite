@@ -1,0 +1,104 @@
+
+.tableType01 {
+	width: 586px; 
+	margin-bottom:15px; 
+	border-collapse:collapse; 
+	font-size:11px;
+}
+
+.tableType01 thead th {
+	padding:5px 5px 5px 5px; 
+	background:#e6edf6 url('/images/kr/product/bgTh.gif') repeat-y right 0; 
+	border:1px solid #c4cfe4; 
+	color:#2c323e;
+}
+.tableType01 thead tr.grayRow th {
+	background-color:#f4f4f4;
+} 
+
+.tableType01 tbody th {
+	padding:5px 5px 5px 5px; 
+	background:#f2f6fa url('/images/kr/product/bgTd.gif') repeat-y right 0;  
+	border:1px solid #d5d5d5; 
+	text-align:center; 
+	color:#2c323e; 
+	font-weight:normal; 
+	line-height:13px;
+}
+
+.tableType01 tbody td {
+	padding:5px 5px 5px 5px; 
+	border:1px solid #dfdfdf; 
+	background:url('/images/kr/product/bgTd.gif') repeat-y right 0; 
+	color:#585858; 
+	vertical-align:top;
+}
+
+.tableType01Add tbody th {padding:5px 0;}
+.tableType01Add tbody td {padding:5px;}
+
+.lageTableP5 tbody td {padding:5px;}
+.lageTableP5 tbody th {padding:5px;}
+.lageTableP0  tbody td {padding:0;}
+.lageTableP0 tbody th {padding:0;}
+.tableType01 .diagonalTh {}
+.tableType01 .diagonalTh .fLeft {padding-left:5px; padding-top:10px;}
+.tableType01 .diagonalTh .fRight {padding-right:5px; }
+.tableType01.td0 tbody td {padding:5px 2px;}
+.tableType01 td.center {text-align:center;}
+/*
+.tableType01 tbody tr.tCenter th {text-align:center;}
+.tableType01.tableAlignCenter td, .tableType01.tableAlignCenter th {text-align:center;}
+.tableType01.tdCenters td {text-align:center;}
+.tableType01 td .ulType02 li {color:#666; padding-bottom:3px;}
+
+.tableType01 .tLeft {text-align:left !important;}
+.tableType01 .thLeft {text-align:left; padding-left:5px;}
+.tableType01 .tCenter {text-align:center;}
+.tableType01 .tRight {text-align:right;}
+*/
+.tableType01.history th {
+	padding:6px 10px 0; 
+	color:#2c323e; 
+	font-weight:bold; 
+	vertical-align:top;
+}
+.tableType01.history td {padding-left:15px; word-break:keep-all;}
+.tableType01.history td span {color:#273c66;}
+.tableType01 td .ulType02 {padding-bottom:0;}
+.tableType01 td .ulType02 li {padding-left:7px; background-position:0 7px;}
+.tableType01 td .ulType02.pB0 {padding-bottom:0;}
+.tableType01 td .ulType02 li {padding-bottom:5px; line-height:14px; background-position:0 4px;}
+.tableType01 td.valign {vertical-align:top;}
+.tableType01 tr.imgCenter td{text-align:center;}
+
+.historyTable th {
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding:5px 5px 5px 5px; 
+	border:1px solid #d5d5d5; 
+	text-align:left; 
+	color:#2c323e; 
+	line-height:13px;
+	background-color: #f2f6fa;
+}
+
+.historyTable td {
+	font-family: arial;
+	font-size: 12px;
+	border:1px solid #c4cfe4; 
+	padding:5px 5px 5px 5px; 
+	
+	text-align:left; 
+	color:#2c323e; 
+	font-weight:normal; 
+	line-height:13px;
+	background-color:#f2f6fa;
+}
+
+.history {
+	position: absolute;
+	left: 350px;
+	top: 190px;
+}
