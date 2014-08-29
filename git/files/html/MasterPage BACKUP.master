@@ -1,0 +1,101 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    
+    <title>HICO America | Powering Your Success</title>
+		<meta name="viewport" content="width=1024"/>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-language" content="en-US" />		
+		<meta name="description" 
+		      content="HICO America offers various types of power transformers with ratings up to 765kV.
+                       HICO America provides the most advanced high voltage Gas Insulated Switchgear and Gas Circuit Breaker. 
+                       HICO America offers efficient shunt reactors that are manufactured to the needs of the global customers." />	
+		<meta name="keywords" 
+		      content="HICO, 
+		               hyosung, 
+		               HICO America, 
+		               hyosung america, 
+		               power transformer, 
+		               shunt reactor, 
+		               gas insulated switchgear, 
+		               gis, 
+		               cgis, 		
+		               compact gas insulated switchgear, 
+		               medium power transformer, 
+		               switchgear, 
+		               gas circuit breaker, 
+		               circuit breaker, 
+		               transformer, 		
+		               substation, 
+		               epc, 
+		               impedance, 
+		               voltage, 
+		               mva, 
+		               mvar" />	
+				
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/aboutUs.css" />
+		<link rel="stylesheet" href="css/news.css" />
+		<link rel="stylesheet" href="css/subpages.css" />
+		<link rel="stylesheet" href="counterstyle.css" />
+		<link rel="stylesheet" href="css/menu.css" />
+		<link rel="stylesheet" href="css/form.css" />
+		<link rel="stylesheet" href="css/careers.css" />
+		<link rel="stylesheet" href="css/webwidget_slideshow_dot.css"  type="text/css"/>
+		<link rel="stylesheet" href="css/tab.css"  type="text/css"/>
+	    <link rel="stylesheet" href="css/gallery.css"  type="text/css"/>
+	    <link rel="stylesheet" href="css/pni.css"  type="text/css"/>
+	    <link rel="stylesheet" href="css/sitemap.css" />
+	    <link rel="stylesheet" href="css/calculator.css" />
+	    <link rel="stylesheet" href="css/timelinestyle.css" type="text/css" media="screen"/>
+        
+        
+</head>
+
+<body>
+
+	<div class="header">
+		<div class="menu_grid">
+			<div class="logo">
+				<a href='default.aspx'><img src="images/main_logo.jpg" /></a>
+			</div>
+
+			<!--- start of dropdown menu -->
+			<div id='cssmenu' style="position:relative; z-index: 100;">
+						<ul class="cssmenup">
+						    <li class='has-sub'><a id="sublink" href='#'><span>Products</span></a>
+							    <ul class="submenu">
+									<li class='has-sub'><a href='transformers.aspx'><span>Power Transformer</span></a></li>
+									<li class='has-sub'><a href='reactor.aspx'><span>Shunt Reactor</span></a></li>
+									<li class='has-sub'><a href='gcb.aspx'><span>HV Gas Circuit Breaker</span></a></li>
+									<li class='has-sub'><a href='hvgis.aspx'><span>HV Gas Insulated Switchgear</span></a></li>
+									<li class='has-sub'><a href='mvgis.aspx'><span>MV Gas Insulated Switchgear</span></a></li>
+							    </ul>
+						    </li>
+						    <li class='has-sub'><a id="sublink" href='#'><span>About Us</span></a>
+							<ul class="submenu">
+								<li class='has-sub'><a href='about.aspx'><span>About HICO</span></a></li>
+								<li class='has-sub'><a href='news.aspx'><span>Newsroom</span></a></li>
+							</ul>
+						    </li>
+						    <li><a id="home" href='services.aspx'><span>Services</span></a></li>
+						    <li><a id="home" href='transformertools.aspx'><span>Tools</span></a></li>
+						    <li><a id="home" href='form.aspx'><span>Contact Us</span></a></li>
+						    <li><a id="endMenu" href='careers.aspx'><span>Careers</span></a></li>
+						</ul>
+			</div><!--- end of cssmenu --->
+		</div>
+	</div> <!---- end of header -->
+
+
+    <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        
+    </asp:contentplaceholder>	
+     
+</body>
+
+</html>
